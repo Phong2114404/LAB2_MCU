@@ -1,0 +1,5 @@
+Report 1: Nếu không có setTimer0(1000) thì timer0_counter và timer0_flag mặc định bằng 0 => đèn không thể sáng
+
+Report 2: Nếu dòng 1 được thay đổi thành setTimer0(1) thì time0_counter = 0 => timer_flag = 0 => đèn không thể sáng 
+
+Report 3: Nếu dòng 1 được thay đổi thành setTimer0(10) thì sau 1 đơn vị thời gian timer0_flag = 1 => đèn sáng và thay đổi trạng thái sau mỗi 2 giây.
